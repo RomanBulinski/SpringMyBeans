@@ -21,6 +21,12 @@
     </bean>
 
 
+    <bean id="AB_bean" class="implementation.AB">
+        <constructor-arg ref="pierwszy_bean" />
+        <constructor-arg ref="trzeci_bean" />
+    </bean>
+
+
 
 
 </beans>
